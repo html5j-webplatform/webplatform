@@ -2,11 +2,8 @@
 
 angular.module('webplatformApp')
   .controller('MainCtrl', function ($scope, $http) {
-    $scope.awesomeThings = [];
-
-    $http.get('/api/things').success(function(awesomeThings) {
-      $scope.awesomeThings = [
-		  {
+    $scope.awesomeThings = [
+          {
 		  	name : 'プラットフォーム/デバイス',
 		  	info : ''
 		  },
@@ -63,6 +60,6 @@ angular.module('webplatformApp')
 		  	info : ''
 		  }
       ];
-    });
+
 
   });
