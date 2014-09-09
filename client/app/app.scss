@@ -22,3 +22,16 @@ $fa-font-path: "/bower_components/font-awesome/fonts";
 @import 'member/member.scss';
 @import 'modal/modal.scss';
 // endinjector
+
+
+// ロゴ入れ
+.container > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-header,
+.container-fluid > .navbar-collapse {
+	margin-top: -14px;	
+}
+
+.hero-unit {
+	background: #cf2742;
+}
